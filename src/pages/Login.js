@@ -42,18 +42,20 @@ const Login = () => {
     return(
         <div className="flex h-screen bg-red-500">
             <div className="m-auto">
-                <div className="p-2 py-4">   
+                <div className="p-2 py-20">   
                     <img src={logo} alt="Logo" width="500"/>
                 </div>
-                <div className="bg-white rounded">
+                <div className="bg-white rounded p-8">
                     <div>
-                        <h1 className="text-center text-3xl p-8">Portal RGPD</h1>
+                        <h1 className="text-center text-3xl p-2">Portal RGPD</h1>
                     </div>
-                    <div className="text-center p-8">
-                        {inputs.map((items) => 
-                            <Input key={items.id} type={items.type} label={items.label} required={items.required} placeholder={items.placeholder} onChange={set_values()}/>
-                        )}
-                        <Link to={"/main"} >
+                    <div className="text-center p-4">
+                        <div className="p-4">
+                            {inputs.map((items) => 
+                                <Input key={items.id} type={items.type} label={items.label} required={items.required} placeholder={items.placeholder} onChange={set_values()}/>
+                            )}
+                        </div>
+                        <Link to={"/main"}>
                             <Button text="Entra" onClick={login_handler}/>
                         </Link>
                     </div>
