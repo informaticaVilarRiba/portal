@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portal/static/css/main.eb4ec778.css",
+    "main.js": "/portal/static/js/main.2700eaa8.js",
+    "index.html": "/portal/index.html",
+    "main.eb4ec778.css.map": "/portal/static/css/main.eb4ec778.css.map",
+    "main.2700eaa8.js.map": "/portal/static/js/main.2700eaa8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb4ec778.css",
+    "static/js/main.2700eaa8.js"
+  ]
+}
