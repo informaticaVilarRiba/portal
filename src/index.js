@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { Login } from './pages/pages';
+import { Login, App, Test } from './pages/pages';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+// import { NavigationContainer } from '@react-navigation/native';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Login />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login/>}/>
+        <Route path="/main" element={<App/>}/>
+        <Route path="/preguntes" element={<Test/>}/>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

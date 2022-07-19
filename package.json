@@ -1,15 +1,21 @@
 {
-  "homepage": "https://sfigols23.github.io/portal",
+  "homepage": "https://informaticaVilarRiba.github.io/portal",
   "name": "portal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-navigation/native": "^6.0.11",
+    "@react-navigation/native-stack": "^6.7.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-native": "^0.69.1",
+    "react-native-safe-area-context": "^4.3.1",
+    "react-native-screens": "^3.15.0",
+    "react-router-dom": "6",
     "react-scripts": "5.0.1",
     "tailwindcss": "^3.1.6",
     "web-vitals": "^2.1.0"

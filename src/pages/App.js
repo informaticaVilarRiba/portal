@@ -1,6 +1,8 @@
 import '../index.css';
+import {Navbar, Button} from './components/components';
+import { Link } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
     <div>
       <Navbar/>
@@ -9,7 +11,9 @@ function App() {
         Video
       </div>
       <div>
-        Enllaç
+        <Link to={"/preguntes"}>
+          <Button text="Accedeix al test"/>
+        </Link>
       </div>
     </div>
   );
