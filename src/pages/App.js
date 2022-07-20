@@ -5,8 +5,6 @@ import Video from "../images/FORMACIO_V1.mp4";
 import { Navbar, Button } from './components/components';
 import { Link } from 'react-router-dom';
 
-
-
 const App = () => {
   return (
     <div>
