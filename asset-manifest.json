@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portal/static/css/main.e0eb1dee.css",
-    "main.js": "/portal/static/js/main.f620d2c4.js",
+    "main.js": "/portal/static/js/main.ecd3a0bf.js",
     "static/media/FORMACIO_V1.mp4": "/portal/static/media/FORMACIO_V1.675fc1559bca423408bf.mp4",
     "static/media/logo.png": "/portal/static/media/logo.ddb8b58e699cadd63417.png",
     "index.html": "/portal/index.html",
     "main.e0eb1dee.css.map": "/portal/static/css/main.e0eb1dee.css.map",
-    "main.f620d2c4.js.map": "/portal/static/js/main.f620d2c4.js.map"
+    "main.ecd3a0bf.js.map": "/portal/static/js/main.ecd3a0bf.js.map"
   },
   "entrypoints": [
     "static/css/main.e0eb1dee.css",
-    "static/js/main.f620d2c4.js"
+    "static/js/main.ecd3a0bf.js"
   ]
 }
