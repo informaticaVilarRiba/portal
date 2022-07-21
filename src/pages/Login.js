@@ -1,10 +1,10 @@
 import "../index.css";
 import logo from '../images/logo.png';
 
-import Input from "./components/Input";
-import Button from "./components/Button";
-import React from "react";
+import React /*, {useState} */ from "react";
 import { Link } from "react-router-dom";
+
+import {Input, Button} from "./components/components";
 
 const Login = () => {
     // const [credentials, setCredentials] = useState([
@@ -32,11 +32,11 @@ const Login = () => {
     ];
 
     const login_handler = () => {
-        // Insert
+        console.log("Hola");
     }
 
-    const set_values = () => {
-        // On change
+    const set_values = (e) => {
+        console.log(e.target.value);
     }
 
     return(
@@ -49,16 +49,16 @@ const Login = () => {
                     <div>
                         <h1 className="text-center text-3xl p-2">Portal RGPD</h1>
                     </div>
-                    <div className="text-center p-4">
+                    <form className="text-center p-4">
                         <div className="p-4">
                             {inputs.map((items) => 
-                                <Input key={items.id} type={items.type} label={items.label} required={items.required} placeholder={items.placeholder} onChange={set_values()}/>
+                                <Input key={items.id} type={items.type} label={items.label} required={items.required} placeholder={items.placeholder} onChange={set_values}/>
                             )}
                         </div>
                         <Link to={"/main"}>
                             <Button text="Entra" onClick={login_handler}/>
                         </Link>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>

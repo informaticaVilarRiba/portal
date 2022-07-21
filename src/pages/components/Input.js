@@ -4,7 +4,7 @@ const Input = (props) => {
             <label className="px-2">
                 {props.label}
             </label>
-            <input type={props.type} required={props.required} placeholder={props.placeholder} className="rounded"/>
+            <input type={props.type} required={props.required} placeholder={props.placeholder} onChange={props.onChange} className="rounded"/>
         </div>
     )
 }

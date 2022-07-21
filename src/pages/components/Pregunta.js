@@ -7,7 +7,7 @@ const Pregunta = (props) => {
     return(
         <div>
             <div className="px-32 py-5 text-3xl">Pregunta {preg}</div>
-            <div>
+            <div className="w-full">
                 <ul>
                     {
                         respostes.map((r) => (
